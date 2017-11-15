@@ -1,7 +1,7 @@
 FROM debian:latest
 
 RUN apt-get update \
- && apt-get install -y openssh-client rsync
+ && apt-get install -y openssh-client git-client rsync
 
 RUN mkdir -p ~/.ssh
 
